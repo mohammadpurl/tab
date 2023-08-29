@@ -64,6 +64,8 @@
 }
  .owl-item {
     float: left;
+    background-color: #fff;
+    margin: 10px;
 }
 #owl-demo3 .item, #owl-demo4 .item, #owl-demo5 .item, #owl-demo6 .item, #owl-demo14 .item, #owl-demo7 .item, #owl-demo8 .item, #owl-demo9 .item, #owl-demo10 .item, #owl-demo11 .item {
     margin: 10px;

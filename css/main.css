@@ -557,6 +557,7 @@ select{
     height: 100%;
     max-height: 100%;
     background-color: #f6f6f6;
+    padding-top: 15px;
 }
 .tabs:after{
     content:'';
@@ -582,6 +583,7 @@ select{
     box-shadow: 5px 6px 6px #dfdede;
     background: #FFF;
     margin-left: 10px;
+    margin-right: 10px;
 }
 .tabs label span{
     display:none;
