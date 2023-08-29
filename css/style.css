@@ -70,9 +70,9 @@
 
 .tabs [id^="tab"]:checked + label {
     
-    color: #3498db;
-	box-shadow: 10px 5px 5px gray;
-    background-color: #f1f2f6;
+    color: #fff;
+	box-shadow: 4px 7px 4px #C3D2EF;
+    background-color: #2360d5
 }
 
 .tabs [id^="tab"]:checked + label i {
