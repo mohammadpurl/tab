@@ -24,6 +24,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
     height: 100%;
     max-height: 100%;
     padding: 50px 50px;
+    width: 100vw;
+    overflow: hidden;
 }
 html{
     -ms-text-size-adjust:100%;
@@ -584,9 +586,13 @@ select{
     background: #FFF;
     margin-left: 10px;
     margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
 }
 .tabs label span{
-    display:none;
+    display:flex;
     font-size:1rem;
     font-weight:500
 }
@@ -605,6 +611,7 @@ select{
     box-sizing:border-box;
     margin-top:2rem;
     background-color: #f6f6f6;
+    overflow: hidden;
 }
 .tab__content--copy{
     margin-bottom:60px;
@@ -656,11 +663,28 @@ select{
     background-position:0 -50px
 }
 #tab1:checked ~ #tab__content--1,#tab2:checked ~ #tab__content--2,#tab3:checked ~ #tab__content--3,#tab4:checked ~ #tab__content--4,#tab5:checked ~ #tab__content--5,#tab6:checked ~ #tab__content--6,#tab7:checked ~ #tab__content--7,#tab8:checked ~ #tab__content--8{
-    display:grid
+    display:flex
 }
 @media (min-width: 768px){
     .tabs label span{
-        display:block
+        display: flex;
+        top: 50%;
+        position: relative;
+        text-align: center;
+    }
+}
+@media (max-width:908px) {
+    .tabs label span{
+        padding: 10px;
+        font-size:12px;
+        font-weight:500
+    }
+}
+@media (max-width:768px) {
+    .tabs label span{
+       
+        font-size:10px;
+        font-weight:500
     }
 }
 .icon{
