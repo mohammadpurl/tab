@@ -683,8 +683,8 @@ select{
 @media (max-width:768px) {
     .tabs label span{
        
-        font-size:10px;
-        font-weight:500
+        font-size:8px;
+        font-weight:400
     }
 }
 .icon{
