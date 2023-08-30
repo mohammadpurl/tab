@@ -665,33 +665,7 @@ select{
 #tab1:checked ~ #tab__content--1,#tab2:checked ~ #tab__content--2,#tab3:checked ~ #tab__content--3,#tab4:checked ~ #tab__content--4,#tab5:checked ~ #tab__content--5,#tab6:checked ~ #tab__content--6,#tab7:checked ~ #tab__content--7,#tab8:checked ~ #tab__content--8{
     display:flex
 }
-@media (min-width: 768px){
-    .tabs label span{
-        display: flex;
-        top: 50%;
-        position: relative;
-        text-align: center;
-    }
-}
-@media (max-width:908px) {
-    .tabs label span{
-        
-        font-size:12px;
-        font-weight:500
-    }
-}
-@media (max-width:768px) {
-    .tabs label span{
-       
-        font-size:8px;
-        font-weight:600
-    }
-    .icon {
-        width: 30px;
-        height: 30px;
-    }
 
-}
 .icon{
     margin-top:1rem;
     display:inline-block;
@@ -1059,3 +1033,40 @@ figure.circle img{
     }
 }
 /*# sourceMappingURL=main.css.map */
+/* Medias */
+@media (min-width: 768px){
+    .tabs label span{
+        display: flex;
+        top: 50%;
+        position: relative;
+        text-align: center;
+    }
+}
+@media (max-width:908px) {
+    .tabs label span{
+        top: 30%;
+        font-size:12px;
+        font-weight:500;
+        display:inline-block;
+        vertical-align: middle;
+    }
+    .tabs label {
+        display: block;
+    }
+}
+@media (max-width:768px) {
+    .tabs label span{
+        top: 30%;
+        font-size:10px;
+        font-weight:600
+    }
+    .icon {
+        width: 30px;
+        height: 30px;
+    }  
+
+    .tabs label {
+        display: block;
+    }
+
+}
