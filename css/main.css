@@ -570,7 +570,7 @@ select{
     display:none
 }
 .tabs label{
-    display:inline-block;
+    
     /* min-width:25%; */
     width: 100px;
     -webkit-box-flex:1;
@@ -590,6 +590,9 @@ select{
     justify-content: center;
     justify-items: center;
     position: relative;
+    cursor: pointer;
+    gap: 5px;
+    align-items: center;
 }
 .tabs label span{
     display:flex;
@@ -1038,11 +1041,21 @@ figure.circle img{
     .tabs label span{
         display: flex;
         top: 50%;
-        position: relative;
-        text-align: center;
+        
     }
 }
 @media (max-width:908px) {
+    .tabs label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      /* Center the image vertically */
+      .tabs label .icon {
+        margin: 0 auto;
+      }
     .tabs label span{
         top: 30%;
         font-size:12px;
@@ -1050,9 +1063,7 @@ figure.circle img{
         display:inline-block;
         vertical-align: middle;
     }
-    .tabs label {
-        display: block;
-    }
+        
 }
 @media (max-width:768px) {
     .tabs label span{
@@ -1065,8 +1076,6 @@ figure.circle img{
         height: 30px;
     }  
 
-    .tabs label {
-        display: block;
-    }
+    
 
 }
