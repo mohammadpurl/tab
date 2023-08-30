@@ -675,7 +675,7 @@ select{
 }
 @media (max-width:908px) {
     .tabs label span{
-        padding: 10px;
+        
         font-size:12px;
         font-weight:500
     }
@@ -686,6 +686,11 @@ select{
         font-size:8px;
         font-weight:600
     }
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+
 }
 .icon{
     margin-top:1rem;
