@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
 }
 .tab__content {
     /* display: grid;
@@ -61,7 +61,7 @@
  .item {
     width: 313px;
     min-width: 240px;
-    height: 300px;
+    height: 350px;
     overflow: hidden;
     background-color: #fff;
     margin: 10px;
@@ -111,7 +111,7 @@ img {
     font-size: 12px;
 }
 .tab-slider .tab-text {
-    font-size: 17.7px;
+    font-size: 15px;
     font-weight: bold;
     line-height: 1.57;
     text-align: left;

@@ -88,7 +88,7 @@ p,li,figure{
     margin-bottom:1.3em
 }
 a{
-    color:#4b89dc;
+    color:#151516;
     text-decoration:none;
     -webkit-transition:color 150ms ease;
     transition:color 150ms ease
@@ -576,7 +576,7 @@ select{
     -webkit-box-flex:1;
     /* -ms-flex:1 1 25%; */
     /* flex:1 1 25%; */
-    color:#7C8796;
+    color:#193761;
     text-align:center;
     cursor:pointer;
     -webkit-transition:all 0.5s;
@@ -593,6 +593,7 @@ select{
     cursor: pointer;
     gap: 5px;
     align-items: center;
+    padding: 10px;
 }
 .tabs label span{
     display:flex;
@@ -600,7 +601,7 @@ select{
     font-weight:500
 }
 .tabs label:hover{
-    color:#3498db
+    color:#494fa5
 }
 .tabs label:hover .icon{
     border-color:#3498db;
@@ -623,6 +624,18 @@ select{
 .tab__content *{
     -webkit-animation:scale 0.2s ease-in-out;
     animation:scale 0.2s ease-in-out
+}
+.tab-slider .hover-img-effect {
+    position: relative;
+    overflow: hidden;
+}
+.tab-slider .hover-img-effect img:hover {
+    transition: 2s;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+    transition: all 280ms ease-in-out;
 }
 @-webkit-keyframes scale{
     0%{
@@ -670,7 +683,7 @@ select{
 }
 
 .icon{
-    margin-top:1rem;
+    /* margin-top:1rem; */
     display:inline-block;
     width:50px;
     height:50px;
