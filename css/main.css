@@ -628,14 +628,12 @@ select{
 .tab-slider .hover-img-effect {
     position: relative;
     overflow: hidden;
+    transition: all 280ms ease-in-out;
 }
 .tab-slider .hover-img-effect img:hover {
-    transition: 2s;
-    transition-duration: 2s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-    transition-property: all;
-    transition: all 280ms ease-in-out;
+    
+    
+    transform: scale(1.1)
 }
 @-webkit-keyframes scale{
     0%{
